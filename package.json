@@ -1,0 +1,17 @@
+{
+  "name": "nodeMedia",
+  "version": "0.0.0",
+  "description": "A node based implementation of web audio and video",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OpenSourceAnonymous/nodeMedia.git"
+  },
+  "author": "OpenSourceAnonymous",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "e5c8764483132a988c28eae5a869cf36442c02c5"
+}
