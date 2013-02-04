@@ -2,13 +2,46 @@
 <html>
 	<head>
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	</head>
 	<body>
 		<div id="content">
-			<audio id="mediaPlayer"></audio>
+			<div id="mediaBody">
+				<audio id="mediaPlayer"></audio>
+				<div class="h30">
+					<div>
+						<input id="songLink" type="text" placeholder="Enter song link" />
+					</div>
+					<div>
+						<button id="playSong" class="btn btn-primary">Play song</button>
+					</div>
+				</div>
+
+				<div id="playerBox">
+					<div id="songName" class="h30">Song Name Here</div>
+					<div id="timeline" class="h30">
+						<div id="currentTime" class="displayTime">00:00</div>
+						<div id="timeBarSpace">
+							<div id="timeBar"></div>
+						</div>
+						<div id="remainingTime" class="displayTime">00:00</div>
+					</div>
+					<div id="controlLine">
+						<div id="playerControls">
+							<div>Back</div>
+							<div id="playButton">Play</div>
+							<div>Forward</div>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
 		</div>
-		<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script> 
+		<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/sizePosition.js"></script>
 		<script type="text/javascript" src="js/nodeMedia.js"></script>
 	</body>
 </html>
